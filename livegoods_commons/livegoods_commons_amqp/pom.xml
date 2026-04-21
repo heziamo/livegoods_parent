@@ -5,27 +5,23 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.itbaizhan</groupId>
-        <artifactId>livegoods_parent</artifactId>
+        <artifactId>livegoods_commons</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>livegoods_commons</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>livegoods_commons_mysql</module>
-        <module>livegoods_commons_utils</module>
-        <module>livegoods_commons_redis</module>
-        <module>livegoods_commons_dubbo</module>
-        <module>livegoods_commons_nacos_discovery</module>
-        <module>livegoods_commons_nacos_config</module>
-        <module>livegoods_commons_vo</module>
-        <module>livegoods_commons_amqp</module>
-    </modules>
+    <artifactId>livegoods_commons_amqp</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>
