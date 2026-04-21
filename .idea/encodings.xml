@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/livegoods_commons/livegoods_commons_dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_commons/livegoods_commons_mysql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_commons/livegoods_commons_nacos_discovery/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_commons/livegoods_commons_redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_commons/livegoods_commons_utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_commons/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
