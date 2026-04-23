@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/livegoods_api/livegoods_api_banner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/livegoods_commons/livegoods_commons_amqp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/livegoods_commons/livegoods_commons_dubbo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/livegoods_commons/livegoods_commons_mysql/src/main/java" charset="UTF-8" />
@@ -11,6 +14,12 @@
     <file url="file://$PROJECT_DIR$/livegoods_commons/livegoods_commons_vo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/livegoods_commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/livegoods_commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_frontend/livegoods_frontend_banner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_frontend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_frontend/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_pojo/livegoods_pojo_banner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/livegoods_pojo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
