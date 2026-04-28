@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itbaizhan.hot.mapper.HotMapper">
+    <resultMap id="hotMap" type="Product">
+        <id property="id" column="id"></id>
+        <result property="title" column="title"></result>
+        <result property="img" column="img"></result>
+        <result property="city" column="city"></result>
+        <result property="sales" column="sales"></result>
+        <result property="link" column="link"></result>
+        <result property="hot" column="hot"></result>
+        <result property="hotSort" column="hot_sort"></result>
+    </resultMap>
+
+
+    <select id="selectSales" resultMap="productMap">
+        select id,title,img,city,sales,link,hot,hot_sort from lg_product where city=#{param1} order by sales desc limit 0,4
+    </select>
+</mapper>

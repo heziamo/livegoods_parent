@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>livegoods_frontend_banner</module>
+        <module>livegoods_frontend_hot</module>
     </modules>
 
     <properties>

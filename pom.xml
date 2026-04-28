@@ -13,6 +13,7 @@
         <module>livegoods_pojo</module>
         <module>livegoods_frontend</module>
         <module>livegoods_api</module>
+        <module>livegoods_middleware</module>
     </modules>
 
     <properties>
