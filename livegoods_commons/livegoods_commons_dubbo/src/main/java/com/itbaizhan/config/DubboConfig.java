@@ -4,7 +4,7 @@ import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@EnableDubbo
+@EnableDubbo(scanBasePackages = "com.itbaizhan")
 public class DubboConfig {
 
 }

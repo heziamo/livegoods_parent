@@ -2,7 +2,7 @@ package com.itbaizhan.banner.controller;
 
 import com.itbaizhan.banner.service.BannerService;
 import com.itbaizhan.commons.vo.LivegoodsResult;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 // @RestController = @Controller + @ResponseBody
 @RestController
 public class BannerController {
-    @Autowired
+    @DubboReference
     private BannerService bannerService;
 
 
